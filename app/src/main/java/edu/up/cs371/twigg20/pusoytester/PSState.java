@@ -9,8 +9,11 @@ import java.util.ArrayList;
 
 public class PSState {
 
+    ArrayList<Card> playerCards = new ArrayList<Card>();
     private Deck[] hands;
 
+    //turn tracker
+    private int toPlay;
 
     //initial constructor
     public void PSState(){
