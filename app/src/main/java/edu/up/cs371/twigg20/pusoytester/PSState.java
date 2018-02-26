@@ -15,6 +15,15 @@ public class PSState {
     //initial constructor
     public void PSState(){
 
+        hands = new Deck[5];
+        hands[0] = new Deck();
+        hands[1] = new Deck();
+        hands[2] = new Deck();
+        hands[3] = new Deck();
+        hands[4] = new Deck();
+
+        hands[0].fill();
+
 
 
 
@@ -22,6 +31,12 @@ public class PSState {
 
     //copy constructor
     public void PSState(PSState state, int player){
+
+        hands = new Deck[5];
+
+        hands[0] = new Deck( state.hands[0] );
+        hands[1] = new Deck( state.hands[1] );
+        hands[2] = new Deck( state.hands[2] );
 
 
     }
