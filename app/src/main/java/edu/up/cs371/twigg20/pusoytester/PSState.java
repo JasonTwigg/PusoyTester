@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class PSState {
 
-    ArrayList<Card> playerCards = new ArrayList<Card>();
+    private Deck[] hands;
 
 
     //initial constructor
