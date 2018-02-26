@@ -49,6 +49,19 @@ public class PSState {
     @Override
     public String toString(){
 
+        String gameState;
+        gameState = "numCardsPlayer1= "+hands[0].getLength()+"\n"
+                +"numCardsPlayer2= "+hands[1].getLength()+"\n"
+                +"numCardsPlayer3= "+hands[2].getLength()+"\n\n"
+                +"It is Player "+toPlay+"'s turn. \n";
+
+        for( int i=0; i<hands[0].getLength(); i++ )
+        {
+            (hands[0].getCard(i)).toString();
+
+        }
+
+        return null;
 
 
     }

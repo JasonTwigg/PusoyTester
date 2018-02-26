@@ -7,7 +7,8 @@ package edu.up.cs371.twigg20.pusoytester;
 public class Deck {
 
 
-    private length;
+    private int length;
+    private Card currentCard;
 
     public void Deck(){
 
@@ -27,9 +28,13 @@ public class Deck {
 
     }
 
+    public Card getCard( int cardPosition ) {
+        return currentCard;
+    }
+
     public int getLength(){
 
-
+        return length;
 
     }
 
