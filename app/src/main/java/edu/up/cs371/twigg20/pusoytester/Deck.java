@@ -5,4 +5,32 @@ package edu.up.cs371.twigg20.pusoytester;
  */
 
 public class Deck {
+
+
+    private length;
+
+    public void Deck(){
+
+
+
+    }
+
+    public void Deck( Deck oldDeck ){
+
+
+    }
+
+    public void fill(){
+
+
+
+
+    }
+
+    public int getLength(){
+
+
+
+    }
+
 }
