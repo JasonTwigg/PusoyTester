@@ -2,6 +2,7 @@ package edu.up.cs371.twigg20.pusoytester;
 
 
 import java.util.ArrayList;
+import edu.up.cs371.twigg20.pusoytester.Deck;
 
 /**
  * Created by Jason on 2/25/2018.
@@ -61,9 +62,6 @@ public class PSState {
             (hands[0].getCard(i)).toString();
 
         }
-
-        return null;
-
 
         return null;
 

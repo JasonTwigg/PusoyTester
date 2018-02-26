@@ -4,6 +4,10 @@ package edu.up.cs371.twigg20.pusoytester;
  * Created by Jason on 2/25/2018.
  */
 
+import java.util.ArrayList;
+
+import edu.up.cs371.twigg20.pusoytester.Deck;
+
 public class Deck {
 
 
@@ -33,8 +37,12 @@ public class Deck {
 
     public int getLength(){
 
+        return length;
 
+    }
 
+    public Card getCard( int cardPosition ) {
+        return currentCard;
     }
 
 }

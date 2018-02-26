@@ -7,29 +7,29 @@ package edu.up.cs371.twigg20.pusoytester;
 public class Actions {
 
 
-    public boolean Pass(){
+    public boolean Pass(PSState curState){
 
 
         return false;
     }
 
-    public boolean Play(){
+    public boolean Play(PSState curState){
 
         return false;
     }
 
-    public boolean NewGame(){
+    public boolean NewGame(PSState curState){
 
         return false;
     }
 
-    public boolean SaveGame(){
+    public boolean SaveGame(PSState curState){
 
 
         return false;
     }
 
-    public boolean LoadGame(){
+    public boolean LoadGame(PSState curState){
 
         return false;
     }
