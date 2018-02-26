@@ -44,9 +44,9 @@ public class PSState {
 
         hands = new Deck[5];
 
-        hands[0] = new Deck( state.hands[0] );
-        hands[1] = new Deck( state.hands[1] );
-        hands[2] = new Deck( state.hands[2] );
+        hands[0] = new Deck();
+        hands[1] = new Deck();
+        hands[2] = new Deck();
 
 
     }
@@ -67,6 +67,9 @@ public class PSState {
             (hands[0].getCard(i)).toString();
 
         }
+
+        return null;
+
 
         return null;
 

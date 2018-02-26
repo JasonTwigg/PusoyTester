@@ -10,6 +10,9 @@ public class Deck {
     private int length;
     private Card currentCard;
 
+
+    private ArrayList<Card> cards = new ArrayList<Card>();
+
     public void Deck(){
 
 
@@ -28,13 +31,9 @@ public class Deck {
 
     }
 
-    public Card getCard( int cardPosition ) {
-        return currentCard;
-    }
-
     public int getLength(){
 
-        return length;
+
 
     }
 
